@@ -1,0 +1,32 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 7.5rem;
+}
+ header .logo {
+    height: 6.1875rem;
+    width: 6.1875rem;
+    margin-left: 6.1325rem;
+    margin-top: 0.6875rem;
+ }
+ header .nav {
+    display: flex;
+    gap: 1.875rem;
+    padding-left: 26.1875rem;
+ }
+ header .nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+header .sign-in {
+    margin-left: 31.3125rem;
+    height: 3.375rem;
+    width: 5.9375rem;
+    background-color: #BD3A5A;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    color: #F8FAFC;
+}
