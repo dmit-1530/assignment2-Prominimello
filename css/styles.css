@@ -1,32 +1,259 @@
 header {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #ffffff;
     height: 7.5rem;
+    padding: 0 6rem;
 }
  header .logo {
-    height: 6.1875rem;
-    width: 6.1875rem;
+    height: auto;
+    width: 100%;
     margin-left: 6.1325rem;
     margin-top: 0.6875rem;
  }
  header .nav {
     display: flex;
     gap: 1.875rem;
-    padding-left: 26.1875rem;
  }
  header .nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     text-decoration: none;
 }
+header .nav a:hover {
+    text-decoration: underline #BD3A5A;
+    
+}
 header .sign-in {
-    margin-left: 31.3125rem;
     height: 3.375rem;
     width: 5.9375rem;
     background-color: #BD3A5A;
-    border: 0;
+    border: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25rem;
     color: #F8FAFC;
+}
+header .sign-in:hover {
+    background-color: #84283F;
+}
+body {
+    background-color: #F8FAFC;
+}
+.banner {
+    background-color: #005A8F;
+    height: 28.6875rem;
+    width: 100%;
+}
+.banner .banner-text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #F8FAFC;
+    display: flex;
+}
+.banner .banner-text h1 {
+    font-size: 4.5rem;
+    padding-left: 6.3125rem;
+    padding-top: 5.0625rem;
+}
+.banner .banner-text h2 {
+    font-size: 2.25rem;
+    padding-left: 2.125rem;
+    padding-top: 8.25rem;
+}
+.banner .location {
+    border-color: #F8FAFC;
+    border-width: 0.0625rem;
+    background-color: #005A8F;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    height: 3.375rem;
+    width: 12rem;
+    margin-left: 6.3125rem;
+    margin-top: 1.6875rem;
+    color: #F8FAFC;
+}
+.banner .location:hover {
+    background-color: #F8FAFC;
+    color: #005A8F;
+}
+.game-night {
+    width: 100%;
+    height: 38.625rem;
+    background-color: #ffffff;
+    max-width: 53.875rem;
+    margin: 3rem auto 0 auto;
+}
+.game-night img {
+    height: auto;
+    width: 100%;
+}
+.game-night .game-text {
+    display: flex;
+}
+.game-night .game-text h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    width: 31.1875rem;
+    padding-left: 1.6875rem;
+}
+.game-night .game-text button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    width: 17.1875rem;
+    text-decoration: underline;
+    background: none;
+    border: none;
+    color: #BD3A5A;
+    margin-top: 6.5625rem;
+}
+.game-night .game-text button:hover {
+    color: #84283F;
+}
+.game-night p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    width: 31.1875rem;
+    padding-left: 1.6875rem;
+    padding-top: 0.8125rem;
+}
+.games {
+    display: flex;
+    gap: 2rem;
+}
+.new-games {
+    width: 100%;
+    height: 50.0625rem;
+    background-color: #ffffff;
+    margin-top: 5.0625rem;
+    max-width: 25.875rem;
+}
+.new-games h2 {
+    width: 22.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    padding-left: 3.75rem;
+    padding-top: 1.6875rem;
+}
+.new-games img {
+    width: 9.375rem;
+    height: 9.375rem;
+    margin-left: 8.25rem;
+}
+.new-games p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+}
+.new-games .Block p {
+    padding-left: 9.3125rem;
+}
+.new-games .Twisted p {
+    padding-left: 8.8125rem;
+}
+.new-games .Takenokolor p {
+    padding-left: 9.875rem;
+}
+.new-games .Block {
+    padding-top: 3.375rem;
+}
+.new-games .Twisted {
+    padding-top: 3.375rem;
+}
+.new-games .Takenokolor {
+    padding-top: 3.375rem;
+}
+.news {
+    background-color: #ffffff;
+    width: 100%;
+    height: 8.4375rem;
+    margin-top: 3rem;
+    max-width: 53.875rem;
+    margin: 3rem auto 0 auto;
+}
+.news h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    padding-left: 1.6875rem;
+    padding-top: 1.8125rem;
+}
+.news p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    padding-left: 1.6875rem;
+    padding-top: 0.9375rem;
+}
+.magic {
+    background-color: #ffffff;
+    width: 100%;
+    height: 8.4375rem;
+    margin-top: 3rem;
+    max-width: 53.875rem;
+    margin: 3rem auto 0 auto;
+}
+.magic h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    padding-left: 1.6875rem;
+    padding-top: 1.8125rem;
+}
+.magic button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.375rem;
+    margin-left: 1.6875rem;
+    margin-top: 0.9375rem;
+    border: none;
+    background: none;
+    text-decoration: underline;
+    color: #BD3A5A;
+}
+.magic button:hover {
+    color: #84283F;
+}
+.events {
+    background-color: #ffffff;
+    width: 100%;
+    height: 8.4375rem;
+    margin-top: 3rem;
+    max-width: 53.875rem;
+    margin: 3rem auto 0 auto;
+}
+.events h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.25rem;
+    padding-left: 1.6875rem;
+    padding-top: 1.8125rem;
+}
+.events p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    padding-left: 1.6875rem;
+    padding-top: 0.9375rem;
+}
+footer {
+    background-color: #002439;
+    width: 100%;
+    height: 11.25rem;
+    display: flex;
+    margin-top: 4.875rem;
+}
+footer p {
+    color: #F8FAFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 34.375rem;
+    height: 3rem;
+}
+footer p {
+    color: #F8FAFC;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    width: 34.375rem;
+    height: 4.5rem;
+}
+footer .meeple {
+    padding-left: 11.8125rem;
+    padding-top: 3.375rem;
+}
+footer .openai {
+    padding-left: 3.0625rem;
+    padding-top: 3.375rem;
 }
